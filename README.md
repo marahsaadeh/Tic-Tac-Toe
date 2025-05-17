@@ -21,13 +21,26 @@ A console-based implementation of the classic Tic-Tac-Toe game written in Dart, 
    git clone https://github.com/marahsaadeh/Tic-Tac-Toe.git
    ```
 
-2. **Run the game**:
-   - Click `Run` in your IDE
-   - Open terminal and execute:
-     ```bash
-     dart run 
-     ```
+2. **Navigate to the project directory**:
 
+   ```bash
+   cd Tic-Tac-Toe
+   ```
+
+3. **Install dependencies**:
+   Open the terminal and run:
+
+   ```bash
+   dart pub get
+   ```
+
+4. **Run the game**:
+
+   ```bash
+   dart run
+   ```
+
+---
 ## 📖 Game Instructions
 
 ### 🏁 Starting the Game
