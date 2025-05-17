@@ -1,46 +1,74 @@
-# Tic-Tac-Toe
+# 🎯 Tic-Tac-Toe Game in Dart
 
-**Tic-Tac-Toe Console Application - Dart Assessment**
+A console-based implementation of the classic Tic-Tac-Toe game written in Dart, featuring both human vs human and human vs AI gameplay modes.
 
-**Task Description:**
+## 🚀 Features
 
-Develop a simple console-based Tic-Tac-Toe game in Dart. The game should allow two players to take turns making moves on a 3x3 grid until one player wins or the game ends in a draw. The application should provide an interactive and user-friendly experience.
+| Feature | Description |
+|---------|-------------|
+| 🎮 **Game Modes** | Human vs Human or Human vs AI |
+| 🤖 **AI Opponent** | Smart computer player with basic strategy |
+| ✅ **Input Validation** | Ensures all moves are valid |
+| 🏆 **Win Detection** | Automatically detects winning conditions |
+| 🤝 **Draw Detection** | Identifies when the game ends in a tie |
+| 🔄 **Replay Option** | Play again after game ends |
+| 📊 **Clear Display** | Easy-to-read numbered board |
 
-**Requirements:**
+## 🛠️ How to Run the Game
 
-* **Game Board:**
-    1.  Implement a 3x3 grid to represent the Tic-Tac-Toe board.
-    2.  Display the current state of the board after each move.
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/your-repository/tic-tac-toe-dart.git](https://github.com/marahsaadeh/Tic-Tac-Toe.git)
+   cd tic-tac-toe-dart
+   ```
 
-* **Players:**
-    1.  Allow two players to take turns, one representing 'X' and the other 'O'.
-    2.  Prompt players to input their moves using the console.
+2. **Run the game**:
+   - Click `Run` in your IDE
+   - Open terminal and execute:
+     ```bash
+     dart run project.dart
+     ```
 
-* **Input Validation:**
-    1.  Validate user inputs to ensure they are within the valid range (1-9) and correspond to an empty cell on the board.
-    2.  Display an error message for invalid inputs and prompt the player to enter a valid move.
-       
-* **Winning Conditions:**
-    1.  Determine and check for winning conditions after each move.
-    2.  Declare the winner if there are three consecutive 'X' or 'O' markers in a row, column, or diagonal.
-    3.  End the game if a winner is declared.
+## 📖 Game Instructions
 
-* **Draw Condition:**
-    1.  Declare the game as a draw if all cells are filled, and no player has achieved a winning condition.
+### 🏁 Starting the Game
+1. Choose to play against computer (AI) or human
+2. Select your marker (X or O) when playing against AI
+   - X always goes first
 
-* **Game Loop:**
-    1.  Implement a loop to allow the game to continue until there is a winner or a draw.
-    2.  Provide an option to restart the game after it concludes.
+### 🎲 Making Moves
+- Board positions are numbered 1-9:
+  ```
+   1 | 2 | 3 
+  -----------
+   4 | 5 | 6 
+  -----------
+   7 | 8 | 9 
+  ```
+- Enter the number (1-9) of your desired position
 
-* **Code Structure:**
-    1.  Organize your code into functions or classes to enhance readability and maintainability.
-    2.  Use proper naming conventions for variables and functions.
+### 🏆 Winning the Game
+- First to get 3 markers in a row (any direction) wins
+- Game ends in draw if board fills with no winner
 
-* **Documentation:**
-    1.  Include comments or documentation within your code to explain the logic and functionality.
+## ⚙️ Technical Implementation
 
-* **Bonus (Just a bonus, don't hesitate yourself if you can't):**
-    1.  Implement a simple AI opponent to play against the human player.
-    2.  Allow players to choose their markers ('X' or 'O') at the beginning of the game.
+### 🛠️ Dart Features Used
+| Feature | Purpose |
+|---------|---------|
+| 🧩 **Enums** | Game state and player markers |
+| � **Mixin** | Board printing functionality |
+| 🏗️ **Classes** | Player implementations (Human/AI) |
+| ⏳ **Async Programming** | Handle player input |
+| 🌊 **Streams** | Manage game sessions |
 
-This task is designed to assess your proficiency in Dart programming, user input handling, and basic game logic implementation. Good luck!
+### 🤖 AI Strategy
+1. 🔍 First checks for winning moves
+2. 🛡️ Blocks opponent's winning moves
+3. ⭐ Prefers center and corner positions
+4. 🎲 Random move if no strategy applies
+
+
+Enjoy the game! �✨
+```
+
