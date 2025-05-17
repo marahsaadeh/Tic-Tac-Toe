@@ -25,7 +25,7 @@ A console-based implementation of the classic Tic-Tac-Toe game written in Dart, 
    - Click `Run` in your IDE
    - Open terminal and execute:
      ```bash
-     dart run project.dart
+     dart run 
      ```
 
 ## 📖 Game Instructions
