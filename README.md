@@ -18,8 +18,7 @@ A console-based implementation of the classic Tic-Tac-Toe game written in Dart, 
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/your-repository/tic-tac-toe-dart.git](https://github.com/marahsaadeh/Tic-Tac-Toe.git)
-   cd tic-tac-toe-dart
+   git clone https://github.com/marahsaadeh/Tic-Tac-Toe.git
    ```
 
 2. **Run the game**:
@@ -70,4 +69,4 @@ A console-based implementation of the classic Tic-Tac-Toe game written in Dart, 
 
 
 Enjoy the game! �✨
-```
+
