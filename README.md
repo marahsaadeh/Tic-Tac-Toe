@@ -73,6 +73,7 @@ A console-based implementation of the classic Tic-Tac-Toe game written in Dart, 
 | 🏗️ **Classes** | Player implementations (Human/AI) |
 | ⏳ **Async Programming** | Handle player input |
 | 🌊 **Streams** | Manage game sessions |
+![Tic-Tac-Toc drawio](https://github.com/user-attachments/assets/7243f78f-c629-46d2-98a4-428eca1bb35c)
 
 ### 🤖 AI Strategy
 1. 🔍 First checks for winning moves
